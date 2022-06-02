@@ -1,0 +1,14 @@
+{
+  "name": "job-bot",
+  "version": "1.0.0",
+  "description": "Get notified via Telegram whenever a [HIRING] job post gets posted in Vue-related Discord servers.",
+  "main": "index.js",
+  "repository": "https://github.com/xxRockOnxx/job-bot",
+  "author": "Lemuel Flores <is101.lemuel@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ohmyfetch": "^0.4.18",
+    "sqlite3": "^5.0.8"
+  }
+}
