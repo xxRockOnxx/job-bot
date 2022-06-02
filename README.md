@@ -29,7 +29,7 @@ Install dependencies
 yarn install
 ```
 
-Configure environment variables
+Configure environment variables in `docker-compose.yml` or create an `.env` file with the following content
 
 ```
 DISCORD_TOKEN=
