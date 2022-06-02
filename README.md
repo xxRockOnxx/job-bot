@@ -7,7 +7,7 @@ The servers being checked are:
 
 - [Vue Land](https://discord.gg/vue)
 - [Nuxt.js](https://discord.gg/b8kMdB9W)
-- [Vue Land](https://community.vuetifyjs.com)
+- [Vuetify](https://community.vuetifyjs.com)
 
 ## Run Locally
 
