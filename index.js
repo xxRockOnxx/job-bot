@@ -30,10 +30,6 @@ function initDatabase() {
       if (err) {
         reject(err);
       } else {
-        db.run(`CREATE TABLE IF NOT EXISTS jobs (
-          id TEXT PRIMARY KEY,
-          channel_id TEXT NOT NULL
-        )`)
         resolve(db);
       }
     });
