@@ -50,11 +50,11 @@ You can figure out yourself how to create Telegram bot. It's pretty simple.
 Start the server
 
 ```bash
-  node -r dotenv/config index.js
+node -r dotenv/config index.js
 ```
 
 Or via docker-compose
 
 ```bash
-  docker-compose up -d
+docker-compose up -d
 ```
