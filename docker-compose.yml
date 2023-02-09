@@ -7,7 +7,9 @@ services:
     working_dir: /app
     volumes:
       - ./index.js:/app/index.js
-      - ./jobs.db:/app/jobs.db
+      - ./database:/app/database
+      - ./notifications:/app/notifications
+      - ./strategies:/app/strategies
       - ./node_modules:/app/node_modules
     env_file:
       - .env
