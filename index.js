@@ -34,6 +34,8 @@ async function start() {
 
   // Fetch jobs every hour
   setInterval(getJobs, 1000 * 60 * 60);
+
+  console.log("Started");
 }
 
 start();
